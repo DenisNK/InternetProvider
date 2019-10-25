@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetProvider", "InternetProvider\InternetProvider.csproj", "{5CAE339E-A1A9-4D0D-B64F-089D8CB2C341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetProvider.Domain", "InternetProvider.Domain\InternetProvider.Domain.csproj", "{A2D7111B-64D4-464D-90CA-232552A8223F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5CAE339E-A1A9-4D0D-B64F-089D8CB2C341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAE339E-A1A9-4D0D-B64F-089D8CB2C341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAE339E-A1A9-4D0D-B64F-089D8CB2C341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D7111B-64D4-464D-90CA-232552A8223F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D7111B-64D4-464D-90CA-232552A8223F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D7111B-64D4-464D-90CA-232552A8223F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D7111B-64D4-464D-90CA-232552A8223F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
