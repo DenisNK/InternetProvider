@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetProvider", "Interne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetProvider.Domain", "InternetProvider.Domain\InternetProvider.Domain.csproj", "{A2D7111B-64D4-464D-90CA-232552A8223F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetProvider.Domain.Interfaces", "InternetProvider.Domain.Interfaces\InternetProvider.Domain.Interfaces.csproj", "{796F9200-6ED4-47CC-BF55-EBE224731393}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A2D7111B-64D4-464D-90CA-232552A8223F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D7111B-64D4-464D-90CA-232552A8223F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D7111B-64D4-464D-90CA-232552A8223F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796F9200-6ED4-47CC-BF55-EBE224731393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796F9200-6ED4-47CC-BF55-EBE224731393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796F9200-6ED4-47CC-BF55-EBE224731393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796F9200-6ED4-47CC-BF55-EBE224731393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
