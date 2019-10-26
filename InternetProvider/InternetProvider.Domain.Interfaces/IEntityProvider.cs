@@ -11,6 +11,9 @@ namespace InternetProvider.Domain.Interfaces
         void Delete(TEntity entity);
         TType DeleteById<TType>(TType id) where TType : IEntity<int>;
         TEntity GetSingle(Expression<Func<TEntity, bool>> filter);
-        IEnumerable<TEntity> GetManyFiltered(Expression<Func<TEntity, bool>> filter);
+        IEnumerable<TEntity> GetManyFiltered(
+            Expression<Func<TEntity, bool>> filter, 
+            int skip = 0, 
+            int take = 10);
     }
 }
