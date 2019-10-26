@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2D7111B-64D4-464D-90CA-232552A8223F}</ProjectGuid>
+    <ProjectGuid>{8866ED95-9D18-49F1-A53B-D52CB584E2DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InternetProvider.Domain</RootNamespace>
-    <AssemblyName>InternetProvider.Domain</AssemblyName>
+    <RootNamespace>InternetProvider.Infrastructure</RootNamespace>
+    <AssemblyName>InternetProvider.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,15 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Gender.cs" />
-    <Compile Include="Entity\IEntity.cs" />
-    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Entity\Role.cs" />
-    <Compile Include="Entity\Service.cs" />
-    <Compile Include="Entity\TariffAccount.cs" />
-    <Compile Include="Entity\User.cs" />
-    <Compile Include="Entity\UserBalance.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
