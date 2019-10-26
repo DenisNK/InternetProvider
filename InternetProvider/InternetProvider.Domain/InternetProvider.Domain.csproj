@@ -45,9 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role.cs" />
     <Compile Include="Service.cs" />
-    <Compile Include="TariffAccount.cs" />
+    <Compile Include="Tariff.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserBalance.cs" />
+    <Compile Include="UserTariffBalance.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
